@@ -111,10 +111,7 @@ flowchart TB
 
 ## 📁 Repository Structure
 
-The repository is organised into documentation, workflow implementations, diagrams and visual assets to help visitors quickly find the information they need.
-
 ```text
-Haven-and-co-Real-Estate-Automation-Workflow/
 │
 ├── README.md
 │
@@ -143,36 +140,4 @@ Haven-and-co-Real-Estate-Automation-Workflow/
     │   ├── workflow-export/
     │   │   └── telegram-property-search.json
     │   └── screenshots/
-    │
-    ├── 02-website-ai-chat/
-    │   ├── README.md
-    │   ├── workflow-export/
-    │   │   └── website-ai-chat.json
-    │   └── screenshots/
-    │
-    ├── 03-website-property-feed/
-    │   ├── README.md
-    │   ├── workflow-export/
-    │   │   └── website-property-feed.json
-    │   └── screenshots/
-    │
-    └── 04-vapi-voice-agent/
-        ├── README.md
-        ├── workflow-export/
-        │   └── vapi-voice-agent.json
-        └── screenshots/
 ```
-
-### 🧭 Quick Navigation
-
-- [Project Overview](documentation/01-project-overview.md) – Project purpose, scope and objectives.
-- [System Architecture](documentation/02-system-architecture.md) – How the main components fit together.
-- [Airtable Database](documentation/03-airtable-database.md) – Database tables and relationships.
-- [Setup and Configuration](documentation/04-setup-and-configuration.md) – Setup guidance.
-- [Testing and Limitations](documentation/05-testing-and-limitations.md) – Testing notes and known limitations.
-- [Workflow Implementations](workflows/) – Explore the individual automation workflows.
-- [System Diagrams](diagrams/) – Explore architecture and workflow diagrams.
-- [Project Assets](assets/) – Find project visuals and supporting assets.
-
-> **Note:** The tree documents the repository layout. Workflow JSON exports, screenshots and other assets should be treated as available only when the actual files have been added. The Vapi voice-agent work remains partially designed, as noted above.
-
